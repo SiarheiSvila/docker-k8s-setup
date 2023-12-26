@@ -41,4 +41,4 @@ docker run -d --restart=always -p 127.0.0.1:23750:2375 -v /var/run/docker.sock:/
 DOCKER_HOST = "tcp://localhost:23750" 
 ```
 
-
+## To Install Kubernetes refer to [Kubernetes setup]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/SiarheiSvila/docker-k8s-setup/blob/master/k8s-README.md)https://github.com/SiarheiSvila/docker-k8s-setup/blob/master/k8s-README.md)
