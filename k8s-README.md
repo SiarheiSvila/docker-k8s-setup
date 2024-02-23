@@ -49,3 +49,11 @@ Windows kubectl config:
 - port-forward deployment to 8085: `kubectl port-forward service/nginx 8085:80` and check your browser at `localhost:8085`
 - run `kubectl delete --f nginx.yaml`
 
+
+## Automating the startup of minikube and changing Windows kubectl config
+- Add a script [./start-k8s](https://github.com/SiarheiSvila/docker-k8s-setup/blob/master/scripts/start-k8s.sh) 
+- Change {LINUX_USER_NAME} to your linux user name and {WINDOWS_USER_NAME} to your windows user name
+- Invoke the script every time you need Kubernetes cluster to start up
+<img width="940" alt="image" src="https://github.com/SiarheiSvila/docker-k8s-setup/assets/47723898/0d7561c3-59f8-464d-8abc-fd3f74d0f59a">
+
+
