@@ -27,7 +27,7 @@ It should have output like:
 <img width="563" alt="image" src="https://github.com/SiarheiSvila/docker-k8s-setup/assets/47723898/2bb5cf79-6dba-4a3a-96c5-1b0cbb3f978d">
 
 5. Test intsallation with `kubectl get ns` - this command returns all namespaces from your minikube cluster
-6. Install kubeconfig at windows:
+6. Install kubectl at Windows:
 https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
 To ensure installation is correct, run `kubectl version`. Same as at first steps in for WSL you should see `connection refused` message
 7. Configure Windows kubectl same as WSL minikube
