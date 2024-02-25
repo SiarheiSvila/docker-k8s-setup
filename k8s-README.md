@@ -44,16 +44,16 @@ Windows kubectl config:
 
 8. Check installation
 - download example file: `curl -lo nginx.yaml "https://raw.githubusercontent.com/siarheisvila/docker-k8s-setup/master/k8s-nginx.yml"`
-- run it in PowerShell/Cmd: `kubectl apply --f nginx.yaml`
+- run it in PowerShell/Cmd: `kubectl apply -f nginx.yaml`
 - verify everything started up with: `kubectl get all`
 - port-forward deployment to 8085: `kubectl port-forward service/nginx 8085:80` and check your browser at `localhost:8085`
-- run `kubectl delete --f nginx.yaml`
+- run `kubectl delete -f nginx.yaml`
 
 
 ## Automating the startup of minikube and changing Windows kubectl config
 - Add a script [./start-k8s](https://github.com/SiarheiSvila/docker-k8s-setup/blob/master/scripts/start-k8s.sh) 
 - Change {LINUX_USER_NAME} to your linux user name and {WINDOWS_USER_NAME} to your windows user name
-- Invoke the script every time you need Kubernetes cluster to start up
+- Invoke the script every time you need Kubernetes and cluster is not started
 <img width="940" alt="image" src="https://github.com/SiarheiSvila/docker-k8s-setup/assets/47723898/0d7561c3-59f8-464d-8abc-fd3f74d0f59a">
 
 
