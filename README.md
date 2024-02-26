@@ -1,5 +1,9 @@
-# docker-k8s-setup
-### Here are instructions on how to Setup Docker on windows machine without using Docker Desktop
+# Docker-k8s-setup
+
+## To install Docker and Kubernetes without docker desktop, install it on WSL and connect it with cli on Windows
+<img width="589" alt="image" src="drawio/Docker in Windows.png">
+
+### Here are instructions
 https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9
 1. Enable wsl in Turn Windows Features On/Off
 2. Download ubuntu as Linux distributor: <br>
